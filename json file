@@ -1,0 +1,20 @@
+EC2：
+{
+"account": <account>,
+"detail-type": <detail-type>,
+"source": <source>,
+"time": <time>,
+"region": <region>,
+"resources": <instance-id>,
+"state": <state>
+}
+
+IAM：
+{
+  "eventName": <eventName>,
+  "eventTime": <eventTime>,
+  "account":<account>,
+  "time": <time>,
+  "userIdentity": <userIdentity>,
+  "requestParameters":{"userName":<userName>}
+}
